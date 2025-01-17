@@ -40,8 +40,8 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="img_logo" src="images/lavuelta/Logofinal.png" alt="" /></a>
+                  <div class="rd-navbar-brand d-none d-lg-block">
+                    <!--Brand--><a class="brand" href="index.html"><img class="img_logo " src="images/lavuelta/Logofinal.png" alt="" /></a>
                   </div>
                 </div>
                 <div class="rd-navbar-aside-right rd-navbar-collapse">
@@ -176,11 +176,12 @@
       <!-- Servicios-->
       <section id="servicios" class="section section-sm bg-default">
         <div class="container">
-          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Servicios</span></h3><br>
-          <h5 class="">Nuestros servicios son en dos horarios, máximo 4 personas por viaje.</h5><br>
-            <h5>Vuelta AM: Salida 8:30 hrs. Retorno 13:00 hrs.</h5>
-            <h5>Vuelta PM: Salida 14:30 hrs. Retorno 19:00 hrs.</h5>
-
+          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Servicios</span></h3>
+          <p class="text_servicios mb-3">Nuestros servicios son en dos horarios, máximo 4 personas por viaje.</p>
+          <div class="horarios d-inline-block">
+            <div class="text_servicios2">Vuelta AM: Salida 8:30 hrs. Retorno 13:00 hrs.</div>
+            <div class="text_servicios2">Vuelta PM: Salida 14:30 hrs. Retorno 19:00 hrs.</div>
+          </div>  
           <div class="row row-sm row-40 row-md-50">
             <div class="col-sm-6 col-md-12 wow fadeInRight">
               <!-- Product Big-->
@@ -267,7 +268,7 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-wallet26"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Precios Accesibles</a></h5>
+                    <h5 class="box-icon-classic-title"><p href="#">Precios Accesibles</p></h5>
                     <p class="box-icon-classic-text">Encuentra tus viajes a un precio muy económico acorde a tu bolsillo.</p>
                   </div>
                 </div>
@@ -280,7 +281,7 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-fast33"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Express</a></h5>
+                    <h5 class="box-icon-classic-title"><p href="#">Express</p></h5>
                     <p class="box-icon-classic-text">Nuestras Rutas de medio día, para que puedas aprovechar tu tiempo de mejor manera.</p>
                   </div>
                 </div>
@@ -293,7 +294,7 @@
                     <div class="box-icon-classic-icon fl-bigmug-line-checkmark14"></div>
                   </div>
                   <div class="unit-body">
-                    <h5 class="box-icon-classic-title"><a href="#">Compromiso</a></h5>
+                    <h5 class="box-icon-classic-title"><p href="#">Compromiso</p></h5>
                     <p class="box-icon-classic-text">Estamos comprometidos con los tiempos de nuestros pasajeros, por eso te damos un servicio acorde a
                     tu expectativas.</p>
                   </div>
@@ -367,10 +368,9 @@
       <footer id="contactanos" class="section footer-corporate context-dark">
         <div class="footer-corporate-inset">
           <div class="container">
-            <div class="row row-40 justify-content-lg-center">
-              
-              
-              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
+            <div class="row row-40">
+              <!-- CONTACTO -->
+              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4 d-flex align-items-center text-center justify-content-center">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
                     <h6 class="text-spacing-100 text-uppercase">Contactanos</h6>
@@ -394,32 +394,27 @@
                         </div>
                       </li>
                       <li>
-                        <div class="unit unit-spacing-md">
-                          
+                        <div class="unit">            
                           <a class="button button-lg button-primary button-ujarak" href="https://wa.link/ohfgc0">Escríbenos</a>
                         </div>
                       </li>
                     </ul>
-                    
                   </div>
                 </div>
               </div>
-              
-              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
-                <div class="">
-                  <div class="mapouter"><div class="gmap_canvas">
+              <!-- mapa -->
+              <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 d-flex align-items-center text-center justify-content-center">
+                  <div class="mapouter d-flex text-center justify-content-center "><div class="gmap_canvas">
                     <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=plaza de armas de Castro&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki</a></div>
                     <style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:400px;height:400px;}.gmap_iframe {width:400px!important;height:400px!important;}</style>
                   </div>
-                </div>
               </div>
-              
+              <!-- QR -->
               <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4 d-flex align-items-center text-center justify-content-center">
                 <div class="oh-desktop ">
                   <img class="img_logo" src="images/lavuelta/QR.png" alt="" />
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
@@ -430,7 +425,7 @@
                 <div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-6 order-sm-first">
+              <div class="col-sm-6 col-md-8 order-sm-first">
                 <!-- Rights-->
                 <img class="d-inline img_logo2" src="images/lavuelta/Logofinal.png" alt="" />
                 <p class="d-inline mx-1"></p>
@@ -438,7 +433,7 @@
                   
                 </span>Diseñado por <a href="http://rodcantil.site" target="_blank" class="" >Rod Cantil</a></p>
               </div>
-              <div class="col-sm-6 col-md-4 text-md-right">
+              <div class="col-sm-6 col-md-2 text-md-right">
                 <ul class="list-inline list-inline-sm footer-social-list-2">
                   <li><a class="icon fa fa-facebook" href="#"></a></li>
                   <!-- <li><a class="icon fa fa-google-plus" href="#"></a></li> -->

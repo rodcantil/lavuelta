@@ -13,6 +13,20 @@
 
 }
 
+.text_servicios {
+	font-size: 140%;
+
+}
+
+.text_servicios2 {
+	font-size: 120%;
+
+}
+
+.horarios {
+	border: 2px solid #11263a;
+
+}
 
 
 
@@ -15052,7 +15066,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #151515;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-	background: #ffffff;
+	background: #008c33;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
